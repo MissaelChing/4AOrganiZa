@@ -59,6 +59,8 @@ namespace OrganiZa.Services.Migrations
                     UpdatedAT = table.Column<DateTime>(nullable: true),
                     Status = table.Column<bool>(nullable: false),
                     Rolusuario = table.Column<string>(nullable: true),
+                    Alumno = table.Column<string>(nullable: true),
+                    NombreT = table.Column<string>(nullable: true),
                     UsersId = table.Column<int>(nullable: false)
                 },
                 constraints: table =>

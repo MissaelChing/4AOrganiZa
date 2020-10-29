@@ -10,8 +10,8 @@ namespace OrganiZa.Models
     public class TutorModels : BaseEntity
     {
         public string Rolusuario { get; set; }
-        string Alumno { get; set; }
-        string NombreT { get; set; }
+        public string Alumno { get; set; }
+        public string NombreT { get; set; }
         public int UsersId { get; set; }
         [ForeignKey("UsersId")]
         public virtual Users Users { get; set; }

@@ -58,8 +58,14 @@ namespace OrganiZa.Services.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<string>("Alumno")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime>("CreatedAT")
                         .HasColumnType("datetime2");
+
+                    b.Property<string>("NombreT")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Rolusuario")
                         .HasColumnType("nvarchar(max)");

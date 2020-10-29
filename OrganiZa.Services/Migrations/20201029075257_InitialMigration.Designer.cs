@@ -10,7 +10,7 @@ using OrganiZa.Services;
 namespace OrganiZa.Services.Migrations
 {
     [DbContext(typeof(AppDBContext))]
-    [Migration("20201027200552_InitialMigration")]
+    [Migration("20201029075257_InitialMigration")]
     partial class InitialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -60,8 +60,14 @@ namespace OrganiZa.Services.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<string>("Alumno")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime>("CreatedAT")
                         .HasColumnType("datetime2");
+
+                    b.Property<string>("NombreT")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Rolusuario")
                         .HasColumnType("nvarchar(max)");
