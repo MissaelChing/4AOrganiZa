@@ -14,6 +14,7 @@ namespace OrganiZa.Services
         public DbSet<Users> Users { get; set; }
         public DbSet<AdministradorModels> Administrador { get; set; }
         public DbSet<TutorModels> Tutor { get; set; }
+        public DbSet<EscuelaModels> Escuela { get; set; }
 
 
 

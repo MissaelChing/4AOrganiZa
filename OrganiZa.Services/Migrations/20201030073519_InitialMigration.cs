@@ -8,6 +8,23 @@ namespace OrganiZa.Services.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
+                name: "Escuela",
+                columns: table => new
+                {
+                    Id = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    CreatedAT = table.Column<DateTime>(nullable: false),
+                    UpdatedAT = table.Column<DateTime>(nullable: true),
+                    Status = table.Column<bool>(nullable: false),
+                    NombreE = table.Column<string>(nullable: true),
+                    ModoP = table.Column<string>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Escuela", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "Users",
                 columns: table => new
                 {
@@ -89,6 +106,9 @@ namespace OrganiZa.Services.Migrations
         {
             migrationBuilder.DropTable(
                 name: "Administrador");
+
+            migrationBuilder.DropTable(
+                name: "Escuela");
 
             migrationBuilder.DropTable(
                 name: "Tutor");

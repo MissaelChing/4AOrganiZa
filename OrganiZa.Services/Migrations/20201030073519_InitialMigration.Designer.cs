@@ -10,7 +10,7 @@ using OrganiZa.Services;
 namespace OrganiZa.Services.Migrations
 {
     [DbContext(typeof(AppDBContext))]
-    [Migration("20201029075257_InitialMigration")]
+    [Migration("20201030073519_InitialMigration")]
     partial class InitialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -51,6 +51,33 @@ namespace OrganiZa.Services.Migrations
                     b.HasIndex("UsersId");
 
                     b.ToTable("Administrador");
+                });
+
+            modelBuilder.Entity("OrganiZa.Models.EscuelaModels", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<DateTime>("CreatedAT")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("ModoP")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("NombreE")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("Status")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime?>("UpdatedAT")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Escuela");
                 });
 
             modelBuilder.Entity("OrganiZa.Models.TutorModels", b =>

@@ -33,16 +33,20 @@
             <div class="sep"></div>
 
             <div class="inputs">
-                <input type="text"asp-for="@Model.administrador.NombreAd" class="form-control" placeholder="Nombre" autofocus autocomplete="off" />
+                <input type="text" asp-for="@Model.administrador.NombreAd" class="form-control" placeholder="Nombre" autofocus autocomplete="off" />
 
-                <input type="email" asp-for="@Model.user.Usuario" class="form-control"placeholder="E-mail" autofocus autocomplete="off" />
+                <input type="email" asp-for="@Model.user.Usuario" class="form-control" placeholder="E-mail" autofocus autocomplete="off" />
 
                 <input type="password" asp-for="@Model.user.Contraseña" class="form-control" placeholder="Contraseña" autocomplete="off" />
 
                 <div class="checkboxy">
                     <input name="cecky" id="checky" value="1" type="checkbox" autocomplete="off" /><label class="terms">Acepto los terminos de uso</label>
                 </div>
-
+                <div class="mt-4">
+                    <div class="d-flex justify-content-center links">
+                       <a href="/RegistroE" class="ml-2">Registrar Escuela</a>
+                    </div>
+                </div>
                 <button id="submit" class="btn btn-success btn-block" type="submit">Registrar</button>
             </div>
 

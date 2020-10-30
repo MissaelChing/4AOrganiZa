@@ -51,6 +51,33 @@ namespace OrganiZa.Services.Migrations
                     b.ToTable("Administrador");
                 });
 
+            modelBuilder.Entity("OrganiZa.Models.EscuelaModels", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<DateTime>("CreatedAT")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("ModoP")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("NombreE")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("Status")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime?>("UpdatedAT")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Escuela");
+                });
+
             modelBuilder.Entity("OrganiZa.Models.TutorModels", b =>
                 {
                     b.Property<int>("Id")

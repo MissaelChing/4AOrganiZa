@@ -43,6 +43,7 @@ namespace OrganiZaUI
             services.AddScoped<IRepositoryValidar, Validacion>();
             services.AddScoped<IRepositoryRegistroTutor, Tutor>();
             services.AddScoped<IRepositoryRegistroAdmi, Administrador>();
+            services.AddScoped<IRepositoryRegistroEscuela, Escuela>();
             services.AddScoped<IRepositoryUsuarios, Usuarios>();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
             services.AddRouting(option => {
