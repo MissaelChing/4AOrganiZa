@@ -185,3 +185,4 @@ C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\O
 C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza\Proyecto\4AOrganiZa\OrganiZaUI\obj\Debug\netcoreapp3.1\OrganiZaUI.dll
 C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza\Proyecto\4AOrganiZa\OrganiZaUI\obj\Debug\netcoreapp3.1\OrganiZaUI.pdb
 C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza\Proyecto\4AOrganiZa\OrganiZaUI\obj\Debug\netcoreapp3.1\OrganiZaUI.genruntimeconfig.cache
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza\Proyecto\4AOrganiZa\OrganiZaUI\obj\Debug\netcoreapp3.1\Razor\Pages\Pagos.cshtml.g.cs
