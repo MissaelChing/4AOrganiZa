@@ -46,6 +46,7 @@ namespace OrganiZaUI
             services.AddScoped<IRepositoryRegistroEscuela, Escuela>();
             services.AddScoped<IRepositoryUsuarios, Usuarios>();
             services.AddScoped<IRepositoryPagos, Pagos>();
+            services.AddScoped<IRepositoryCalendario, Calendario>();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
             services.AddRouting(option => {
                 option.LowercaseUrls = true;

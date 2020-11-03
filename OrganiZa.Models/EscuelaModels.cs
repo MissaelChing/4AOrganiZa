@@ -7,9 +7,17 @@ using System.Text;
 namespace OrganiZa.Models
 {
     [Table("Escuela")]
-    public class EscuelaModels:BaseEntity
+    public class EscuelaModels : BaseEntity
     {
         public string NombreE { get; set; }
+        public string NombreAd { get; set; }
         public string ModoP { get; set; }
+        public double Colegiatura { get; set; }
+        public int IdT { get; set; } 
+
+        //Referencia
+
+        public virtual AdministradorModels AdministradorModels { get; set; }
+        public virtual CalendarioModels CalendarioModels { get; set; }
     }
 }

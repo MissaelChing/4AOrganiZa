@@ -13,10 +13,12 @@ namespace OrganiZa.Models
       
             public string Rolusuario { get; set; }
             public string NombreAd { get; set; }
-            //referencia 
-          
-            public virtual Users Users { get; set; }
+             public int IdE { get; set; }
+        //referencia 
 
-        
+            public virtual Users Users { get; set; }
+            public List<EscuelaModels> EscuelaModels { get; set; }
+
+
     }
 }
