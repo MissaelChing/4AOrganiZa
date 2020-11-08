@@ -1,0 +1,152 @@
+﻿@page
+@model OrganiZaUI.Pages.MenuPagosModel
+@{
+}
+
+@if (@Model.Users.Rolusuario == "Tutor")
+{
+    <h1 class="text-center text-black-50">Menu de pagos</h1>
+    <div class="row">
+        <div class="container-fluid">
+            <div class="col-md-12">
+                <br>
+                <br>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row text-center">
+        <div class="col-md-2 m-1">
+            <br>
+            <br>
+        </div>
+        <div class="card-deck col-md-4 text-center">
+            <div class="card bg-light" style="min-width:18rem; max-width:30.5%">
+                <div class="card-header">
+                    <h4>Realiza un Pago</h4>
+                </div>
+                <img class="card-img-top img-thumbnail imgThumbnail" src="~/images/Pagos.jpg"
+                     alt="" asp-append-version="true">
+                <div class="card-body">
+                    <h5 class="card-title" dis></h5>
+                    <p class="card-text">
+                        <ul>
+                            <li>Desgargue la ficha de pago</li>
+                            <li>Tener a la mano el voucher</li>
+                        </ul>
+                    </p>
+                    <p class="card-text">
+                        El voucher puede estar en formatos JPG Y PDF
+                    </p>
+
+                </div>
+                <div class="card-footer text-center">
+                    <a asp-page="/Pagos" class="btn btn-success m-1">Pagar</a>
+                </div>
+            </div>
+        </div>
+        <div class="card-deck col-md-4 text-center">
+            <div class="card bg-light" style="min-width:18rem; max-width:30.5%">
+                <div class="card-header">
+                    <h4>Historial de pago</h4>
+                </div>
+                <img class="card-img-top img-thumbnail imgThumbnail" src="~/images/Historial.jpg"
+                     alt="" asp-append-version="true">
+                <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text">
+                        <ul>
+                            <li>Revise sus pagos</li>
+                        </ul>
+                    </p>
+                    <p class="card-text">
+                        En este apartado podras tener una mayor facilidad de observaciones de los pagos que ya realizaste
+                    </p>
+
+                </div>
+                <div class="card-footer text-center">
+                    <a href="#" class="btn btn btn-info ">Ver</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-md-2">
+        </div>
+    </div>
+}
+else
+{
+    <h1 class="text-center text-black-50">Control de Escuela</h1>
+    <div class="row">
+        <div class="container-fluid">
+            <div class="col-md-12">
+                <br>
+                <br>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row text-center">
+        <div class="col-md-2 m-1">
+            <br>
+            <br>
+        </div>
+        <div class="card-deck col-md-4 text-center">
+            <div class="card bg-light" style="min-width:18rem; max-width:30.5%">
+                <div class="card-header">
+                    <h4>Comprobar pagos</h4>
+                </div>
+                <img class="card-img-top img-thumbnail imgThumbnail" src="~/images/Pagos.jpg"
+                     alt="" asp-append-version="true">
+                <div class="card-body">
+                    <h5 class="card-title" dis></h5>
+                    <p class="card-text">
+                        <ul>
+                            <li>Verificar los pagos</li>
+
+                        </ul>
+                    </p>
+                    <p class="card-text">
+                        Verificar que el numero de transferencia sea el correcto
+                    </p>
+
+                </div>
+                <div class="card-footer text-center">
+                    <a asp-page="/ComprobarP" class="btn btn-success m-1">Ir</a>
+                </div>
+            </div>
+        </div>
+        <div class="card-deck col-md-4 text-center">
+            <div class="card bg-light" style="min-width:18rem; max-width:30.5%">
+                <div class="card-header">
+                    <h4>Generar calendario de pagos</h4>
+                </div>
+                <img class="card-img-top img-thumbnail imgThumbnail" src="~/images/Calendario.jpeg"
+                     alt="" asp-append-version="true">
+                <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text">
+                        <ul>
+                            <li>Crear calendario para los pagos</li>
+                        </ul>
+                    </p>
+                    <p class="card-text">
+                        En este apartado podras crear el calendario de pagos
+                    </p>
+
+                </div>
+                <div class="card-footer text-center">
+                    <a href="/GCalendario" class="btn btn btn-info ">Ir</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-md-2">
+        </div>
+    </div>
+}
+
+
+

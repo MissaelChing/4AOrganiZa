@@ -1,0 +1,248 @@
+﻿@page
+@model OrganiZaUI.Pages.GCalendarioModel
+@{
+}
+
+@if (@Model.Users.Rolusuario == "Administrador")
+{ 
+    @if (@Model.administrador.NombreAd == @Model.escuela.NombreAd)
+    {
+        @if (@Model.escuela.ModoP == "Mensual")
+        {
+            <div class="row">
+
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label>Fecha</label>
+                        <input type="date" asp-for="calendario.fecha" class="form-control">
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label>Fecha</label>
+                        <input type="date" asp-for="calendario.fecha" class="form-control">
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label>Fecha</label>
+                        <input type="date" asp-for="calendario.fecha" class="form-control">
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label>Fecha</label>
+                        <input type="date" asp-for="calendario.fecha" class="form-control">
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label>Fecha</label>
+                        <input type="date" asp-for="calendario.fecha" class="form-control">
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label>Fecha</label>
+                        <input type="date" asp-for="calendario.fecha" class="form-control">
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label>Fecha</label>
+                        <input type="date" asp-for="calendario.fecha" class="form-control">
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label>Fecha</label>
+                        <input type="date" asp-for="calendario.fecha" class="form-control">
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label>Fecha</label>
+                        <input type="date" asp-for="calendario.fecha" class="form-control">
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label>Fecha</label>
+                        <input type="date" asp-for="calendario.fecha" class="form-control">
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label>Fecha</label>
+                        <input type="date" asp-for="calendario.fecha" class="form-control">
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label>Fecha</label>
+                        <input type="date" asp-for="calendario.fecha" class="form-control">
+                    </div>
+                </div>
+                <div class="col-md-12 text-center">
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-success m-3">Crear</button>
+                    </div>
+                </div>
+            </div>
+            <form class="mt-3" method="post">
+                <div class="col-md-12 text-right">
+                    <div class="form-group">
+                        <button type="submit" asp-page-handler="Volver" class="btn btn-danger m-3">Volver</button>
+                    </div>
+                </div>
+            </form>
+
+        }
+        else if (Model.escuela.ModoP == "Bimestral")
+        {
+            <div class="row">
+
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label>Fecha</label>
+                        <input type="date" asp-for="calendario.fecha" class="form-control">
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label>Fecha</label>
+                        <input type="date" asp-for="calendario.fecha" class="form-control">
+                    </div>
+                </div>
+                <div class="col-md-12 text-center">
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-success m-3">Crear</button>
+                    </div>
+                </div>
+            </div>
+            <form class="mt-3" method="post">
+                <div class="col-md-12 text-right">
+                    <div class="form-group">
+                        <button type="submit" asp-page-handler="Volver" class="btn btn-danger m-3">Volver</button>
+                    </div>
+                </div>
+            </form>
+
+        }
+        else if (Model.escuela.ModoP == "Cuatrimestral")
+        {
+            <div class="row">
+
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label>Fecha</label>
+                        <input type="date" asp-for="calendario.fecha" class="form-control">
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label>Fecha</label>
+                        <input type="date" asp-for="calendario.fecha" class="form-control">
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label>Fecha</label>
+                        <input type="date" asp-for="calendario.fecha" class="form-control">
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label>Fecha</label>
+                        <input type="date" asp-for="calendario.fecha" class="form-control">
+                    </div>
+                </div>
+                <div class="col-md-12 text-center">
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-success m-3">Crear</button>
+                    </div>
+                </div>
+            </div>
+            <form class="mt-3" method="post">
+                <div class="col-md-12 text-right">
+                    <div class="form-group">
+                        <button type="submit" asp-page-handler="Volver" class="btn btn-danger m-3">Volver</button>
+                    </div>
+                </div>
+            </form>
+        }
+        else if (Model.escuela.ModoP == "Semestral")
+        {
+            <div class="row">
+
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label>Fecha</label>
+                        <input type="date" asp-for="calendario.fecha" class="form-control">
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label>Fecha</label>
+                        <input type="date" asp-for="calendario.fecha" class="form-control">
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label>Fecha</label>
+                        <input type="date" asp-for="calendario.fecha" class="form-control">
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label>Fecha</label>
+                        <input type="date" asp-for="calendario.fecha" class="form-control">
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label>Fecha</label>
+                        <input type="date" asp-for="calendario.fecha" class="form-control">
+                    </div>
+                </div>
+                <div class="col-md-12 text-center">
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-success m-3">Crear</button>
+                    </div>
+                </div>
+            </div>
+            <form class="mt-3" method="post">
+                <div class="col-md-12 text-right">
+                    <div class="form-group">
+                        <button type="submit" asp-page-handler="Volver" class="btn btn-danger m-3">Volver</button>
+                    </div>
+                </div>
+            </form>
+        }
+        else
+        {
+            <div class="row">
+
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label>Fecha</label>
+                        <input type="date" asp-for="calendario.fecha" class="form-control">
+                    </div>
+                </div>
+                <div class="col-md-12 text-center">
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-success m-3">Crear</button>
+                    </div>
+                </div>
+            </div>
+            <form class="mt-3" method="post">
+                <div class="col-md-12 text-right">
+                    <div class="form-group">
+                        <button type="submit" asp-page-handler="Volver" class="btn btn-danger m-3">Volver</button>
+                    </div>
+                </div>
+            </form>
+        }
+
+    }
+    }
