@@ -13,11 +13,13 @@ namespace OrganiZa.Models
         public string NombreAd { get; set; }
         public string ModoP { get; set; }
         public double Colegiatura { get; set; }
-        public int IdT { get; set; } 
+        public int IdT { get; set; }
+        public int IdA { get; set; }
 
         //Referencia
 
-        public virtual AdministradorModels AdministradorModels { get; set; }
+        public List<AdministradorModels> AdministradorModels { get; set; }
         public virtual CalendarioModels CalendarioModels { get; set; }
+        public virtual PagosModels PagosModels { get; set; }
     }
 }

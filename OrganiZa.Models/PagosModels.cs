@@ -11,10 +11,13 @@ namespace OrganiZa.Models
         public string Fichapago { get; set; }
         public string NombreT { get; set; }
         public DateTime Fecha { get; set; }
+        public double Colegiatura { get; set; }
         public string Mespagado { get; set; }
         public byte[] voucher { get; set; }
         public int TutorId { get; set; }
+        public int IdE { get; set; }
         public List<TutorModels> TutorModels { get; set; }
+        public List<EscuelaModels> EscuelaModels { get; set; }
 
     }
 }

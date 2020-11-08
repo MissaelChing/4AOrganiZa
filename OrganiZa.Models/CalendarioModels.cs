@@ -10,6 +10,7 @@ namespace OrganiZa.Models
     public class CalendarioModels: BaseEntity
     {
         public DateTime fecha { get; set; }
+        public string ModoP { get; set; }
         public int IdE { get; set; }
 
         //Referencias

@@ -33,10 +33,17 @@
 
         <div class="inputs">
             <input type="text" asp-for="@Model.escuela.NombreE" class="form-control" placeholder="Nombre de la escuela" autofocus autocomplete="off" />
-            <input type="text" asp-for="@Model.escuela.ModoP" class="form-control" placeholder="Modo de pago" autofocus autocomplete="off" />
-
-            <div class="checkboxy">
-                <input name="cecky" id="checky" value="1" type="checkbox" autocomplete="off" /><label class="terms">Acepto los terminos de uso</label>
+            <input type="text" asp-for="@Model.escuela.Colegiatura" class="form-control" placeholder="Modo de pago" autofocus autocomplete="off" />
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Modo de pago</label>
+                <select class="form-control" asp-for="@Model.escuela.ModoP">
+                    <option>Mensual</option>
+                    <option>Bimestral</option>
+                    <option>Trimestral</option>
+                    <option>Cuatrimestre</option>
+                    <option>Semestre</option>
+                    <option>Anual</option>
+                </select>
             </div>
 
             <button id="submit" class="btn btn-success btn-block" type="submit">Registrar</button>

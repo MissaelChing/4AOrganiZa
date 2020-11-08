@@ -17,6 +17,7 @@ namespace OrganiZa.Services.Migrations
                     UpdatedAT = table.Column<DateTime>(nullable: true),
                     Status = table.Column<bool>(nullable: false),
                     fecha = table.Column<DateTime>(nullable: false),
+                    ModoP = table.Column<string>(nullable: true),
                     IdE = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
@@ -67,31 +68,6 @@ namespace OrganiZa.Services.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Administrador",
-                columns: table => new
-                {
-                    Id = table.Column<int>(nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    CreatedAT = table.Column<DateTime>(nullable: false),
-                    UpdatedAT = table.Column<DateTime>(nullable: true),
-                    Status = table.Column<bool>(nullable: false),
-                    Rolusuario = table.Column<string>(nullable: true),
-                    NombreAd = table.Column<string>(nullable: true),
-                    IdE = table.Column<int>(nullable: false),
-                    UsersId = table.Column<int>(nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Administrador", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_Administrador_Users_UsersId",
-                        column: x => x.UsersId,
-                        principalTable: "Users",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "Escuela",
                 columns: table => new
                 {
@@ -105,22 +81,47 @@ namespace OrganiZa.Services.Migrations
                     ModoP = table.Column<string>(nullable: true),
                     Colegiatura = table.Column<double>(nullable: false),
                     IdT = table.Column<int>(nullable: false),
-                    AdministradorModelsId = table.Column<int>(nullable: true),
+                    IdA = table.Column<int>(nullable: false),
                     CalendarioModelsId = table.Column<int>(nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Escuela", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Escuela_Administrador_AdministradorModelsId",
-                        column: x => x.AdministradorModelsId,
-                        principalTable: "Administrador",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
-                    table.ForeignKey(
                         name: "FK_Escuela_Calendario_CalendarioModelsId",
                         column: x => x.CalendarioModelsId,
                         principalTable: "Calendario",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Administrador",
+                columns: table => new
+                {
+                    Id = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    CreatedAT = table.Column<DateTime>(nullable: false),
+                    UpdatedAT = table.Column<DateTime>(nullable: true),
+                    Status = table.Column<bool>(nullable: false),
+                    Rolusuario = table.Column<string>(nullable: true),
+                    NombreAd = table.Column<string>(nullable: true),
+                    UsersId = table.Column<int>(nullable: true),
+                    EscuelaModelsId = table.Column<int>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Administrador", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Administrador_Escuela_EscuelaModelsId",
+                        column: x => x.EscuelaModelsId,
+                        principalTable: "Escuela",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "FK_Administrador_Users_UsersId",
+                        column: x => x.UsersId,
+                        principalTable: "Users",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                 });
@@ -168,14 +169,14 @@ namespace OrganiZa.Services.Migrations
                 });
 
             migrationBuilder.CreateIndex(
+                name: "IX_Administrador_EscuelaModelsId",
+                table: "Administrador",
+                column: "EscuelaModelsId");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Administrador_UsersId",
                 table: "Administrador",
                 column: "UsersId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Escuela_AdministradorModelsId",
-                table: "Escuela",
-                column: "AdministradorModelsId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Escuela_CalendarioModelsId",
@@ -201,6 +202,9 @@ namespace OrganiZa.Services.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
+                name: "Administrador");
+
+            migrationBuilder.DropTable(
                 name: "Tutor");
 
             migrationBuilder.DropTable(
@@ -210,13 +214,10 @@ namespace OrganiZa.Services.Migrations
                 name: "Pagos");
 
             migrationBuilder.DropTable(
-                name: "Administrador");
+                name: "Users");
 
             migrationBuilder.DropTable(
                 name: "Calendario");
-
-            migrationBuilder.DropTable(
-                name: "Users");
         }
     }
 }

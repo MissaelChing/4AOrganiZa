@@ -10,7 +10,7 @@ using OrganiZa.Services;
 namespace OrganiZa.Services.Migrations
 {
     [DbContext(typeof(AppDBContext))]
-    [Migration("20201106230834_initial")]
+    [Migration("20201108042227_initial")]
     partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -31,7 +31,7 @@ namespace OrganiZa.Services.Migrations
                     b.Property<DateTime>("CreatedAT")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("IdE")
+                    b.Property<int?>("EscuelaModelsId")
                         .HasColumnType("int");
 
                     b.Property<string>("NombreAd")
@@ -51,6 +51,8 @@ namespace OrganiZa.Services.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("EscuelaModelsId");
+
                     b.HasIndex("UsersId");
 
                     b.ToTable("Administrador");
@@ -68,6 +70,9 @@ namespace OrganiZa.Services.Migrations
 
                     b.Property<int>("IdE")
                         .HasColumnType("int");
+
+                    b.Property<string>("ModoP")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("Status")
                         .HasColumnType("bit");
@@ -90,9 +95,6 @@ namespace OrganiZa.Services.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int?>("AdministradorModelsId")
-                        .HasColumnType("int");
-
                     b.Property<int?>("CalendarioModelsId")
                         .HasColumnType("int");
 
@@ -101,6 +103,9 @@ namespace OrganiZa.Services.Migrations
 
                     b.Property<DateTime>("CreatedAT")
                         .HasColumnType("datetime2");
+
+                    b.Property<int>("IdA")
+                        .HasColumnType("int");
 
                     b.Property<int>("IdT")
                         .HasColumnType("int");
@@ -121,8 +126,6 @@ namespace OrganiZa.Services.Migrations
                         .HasColumnType("datetime2");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("AdministradorModelsId");
 
                     b.HasIndex("CalendarioModelsId");
 
@@ -263,6 +266,10 @@ namespace OrganiZa.Services.Migrations
 
             modelBuilder.Entity("OrganiZa.Models.AdministradorModels", b =>
                 {
+                    b.HasOne("OrganiZa.Models.EscuelaModels", "EscuelaModels")
+                        .WithMany("AdministradorModels")
+                        .HasForeignKey("EscuelaModelsId");
+
                     b.HasOne("OrganiZa.Models.Users", "Users")
                         .WithMany("AdministradorModels")
                         .HasForeignKey("UsersId");
@@ -270,10 +277,6 @@ namespace OrganiZa.Services.Migrations
 
             modelBuilder.Entity("OrganiZa.Models.EscuelaModels", b =>
                 {
-                    b.HasOne("OrganiZa.Models.AdministradorModels", "AdministradorModels")
-                        .WithMany("EscuelaModels")
-                        .HasForeignKey("AdministradorModelsId");
-
                     b.HasOne("OrganiZa.Models.CalendarioModels", "CalendarioModels")
                         .WithMany("EscuelaModels")
                         .HasForeignKey("CalendarioModelsId");

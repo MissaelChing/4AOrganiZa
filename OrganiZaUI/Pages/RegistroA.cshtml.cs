@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using OrganiZa.Models;
 using OrganiZa.Services;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Http;
 
 namespace OrganiZaUI.Pages
 {
@@ -16,16 +17,21 @@ namespace OrganiZaUI.Pages
         public Users user { get; set; }
         [BindProperty]
         public AdministradorModels administrador { get; set; }
+        [BindProperty]
+        public EscuelaModels escuela { get; set; }
         public IRepositoryRegistroAdmi repositoryAdmin;
+        public IRepositoryRegistroEscuela repositoryEscuela;
 
 
         public IRepositoryUsuarios repositoryUsuario;
-        public RegistroModel(IRepositoryRegistroAdmi repositoryAdmin, IRepositoryUsuarios repositoryUsuario)
+        public RegistroModel(IRepositoryRegistroAdmi repositoryAdmin, IRepositoryUsuarios repositoryUsuario, IRepositoryRegistroEscuela repositoryEscuela)
         {
             this.repositoryAdmin = repositoryAdmin;
             this.repositoryUsuario = repositoryUsuario;
+            this.repositoryEscuela = repositoryEscuela;
 
         }
+
 
         public IActionResult OnPost()
         {
@@ -40,3 +46,4 @@ namespace OrganiZaUI.Pages
         }
     }
 }
+
