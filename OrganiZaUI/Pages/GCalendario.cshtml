@@ -4,8 +4,20 @@
 }
 
 @if (@Model.Users.Rolusuario == "Administrador")
-{ 
-    @if (@Model.administrador.NombreAd == @Model.escuela.NombreAd)
+{
+    <form class="mt-3" method="post">
+        <div class="row">
+            <div class="col-md-12">
+
+                <input hidden asp-for="escuela.Id" />
+                <input hidden asp-for="escuela.ModoP" />
+                <br>
+                <br>
+            </div>
+        </div>
+    </form>
+
+    @if (@Model.Users.Id == @Model.escuela.IdA)
     {
         @if (@Model.escuela.ModoP == "Mensual")
         {
@@ -245,4 +257,4 @@
         }
 
     }
-    }
+}

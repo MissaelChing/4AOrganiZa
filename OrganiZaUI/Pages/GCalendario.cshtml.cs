@@ -8,7 +8,7 @@ using OrganiZa.Models;
 using OrganiZa.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Http;
-
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace OrganiZaUI.Pages
 {
@@ -22,6 +22,10 @@ namespace OrganiZaUI.Pages
         public EscuelaModels escuela { get; set; }
         public IRepositoryCalendario repositoryCalendario;
         public Users Users = new Users();
+        public IRepositoryRegistroAdmi repositorioadmi;
+        public IRepositoryRegistroEscuela repositorioEscuela;
+        public SelectList Admins { get; private set; }
+        public SelectList Escuelas { get; private set; }
 
         public void OnGet()
         {
@@ -37,6 +41,9 @@ namespace OrganiZaUI.Pages
                 Users.Id = int.Parse(HttpContext.Session.GetString("1.1"));
                 Users.Rolusuario = HttpContext.Session.GetString("1.2");
             }
+            escuela = repositorioEscuela.GetE(Users.Id);
+            Escuelas = new SelectList(repositorioEscuela.GetW(), nameof(Users.Id),
+            nameof(escuela.ModoP));
 
         }
 
@@ -48,7 +55,7 @@ namespace OrganiZaUI.Pages
 
         public IActionResult OnPost()
         {
-
+            OnGet();
             calendario.IdE = escuela.Id;
             repositoryCalendario.InsertC(calendario);
 
