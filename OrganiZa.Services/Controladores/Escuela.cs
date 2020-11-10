@@ -40,9 +40,32 @@ namespace OrganiZa.Services.Controladores
         {
             return context.Escuela.FirstOrDefault(x => x.Id == Id);
         }
+        public EscuelaModels GetEA(int Id)
+        {
+            return context.Escuela.FirstOrDefault(x => x.IdA == Id);
+        }
         public IEnumerable<EscuelaModels> GetW()
         {
             return context.Escuela.ToList() ?? new List<EscuelaModels>();
+        }
+
+        public int BuscarEscuela(EscuelaModels Escuela)
+        {
+
+            var escuelas = context.Escuela.ToList();
+            int i = 0;
+            foreach (var items in escuelas)
+            { 
+                if (Escuela.IdA == items.IdA)
+                {
+                    Escuela.Id = items.Id;
+                    
+                    i = items.Id;
+                    break;
+                }
+
+            }
+            return i;
         }
     }
 }

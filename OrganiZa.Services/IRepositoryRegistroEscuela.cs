@@ -9,6 +9,8 @@ namespace OrganiZa.Services
     {
         public int InsertEs(EscuelaModels escuela);
         public EscuelaModels GetE(int id);
+        public EscuelaModels GetEA(int id);
+        public int  BuscarEscuela(EscuelaModels escuela);
         public IEnumerable<EscuelaModels> GetW();
         public EscuelaModels Updates(EscuelaModels escuela);
     }

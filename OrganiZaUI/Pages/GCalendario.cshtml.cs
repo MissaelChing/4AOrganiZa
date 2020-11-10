@@ -20,12 +20,15 @@ namespace OrganiZaUI.Pages
         public AdministradorModels administrador { get; set; }
         [BindProperty]
         public EscuelaModels escuela { get; set; }
+        [BindProperty]
+        public EscuelaModels escuelas { get; set; }
         public IRepositoryCalendario repositoryCalendario;
         public Users Users = new Users();
         public IRepositoryRegistroAdmi repositorioadmi;
         public IRepositoryRegistroEscuela repositorioEscuela;
         public SelectList Admins { get; private set; }
         public SelectList Escuelas { get; private set; }
+       
 
         public void OnGet()
         {
@@ -41,9 +44,13 @@ namespace OrganiZaUI.Pages
                 Users.Id = int.Parse(HttpContext.Session.GetString("1.1"));
                 Users.Rolusuario = HttpContext.Session.GetString("1.2");
             }
-            escuela = repositorioEscuela.GetE(Users.Id);
-            Escuelas = new SelectList(repositorioEscuela.GetW(), nameof(Users.Id),
+            escuelas.IdA = Users.Id;
+            repositorioEscuela.BuscarEscuela(escuelas);
+            
+            escuela = repositorioEscuela.GetE(escuelas.Id);
+            Escuelas = new SelectList(repositorioEscuela.GetW(), nameof(escuelas.Id),
             nameof(escuela.ModoP));
+           
 
         }
 
