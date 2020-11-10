@@ -62,6 +62,7 @@ namespace OrganiZaUI.Pages
         {
             OnGet();
             calendario.IdE = escuela.Id;
+            calendario.ModoP = escuela.ModoP;
             repositoryCalendario.InsertC(calendario);
 
 

@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Missael Ching R&M\\Desktop\\Nueva carpeta\\Nueva carpeta\\Nueva carpeta\\4AOrganiZa\\OrganiZa.Models\\OrganiZa.Models.csproj": {}
+    "C:\\Users\\joela\\Desktop\\Tareas\\Cuarto Cuatrimestre\\Aplicaciones web\\Repositorio\\Organiza(cambios)\\4AOrganiZa5\\OrganiZa.Models\\OrganiZa.Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Missael Ching R&M\\Desktop\\Nueva carpeta\\Nueva carpeta\\Nueva carpeta\\4AOrganiZa\\OrganiZa.Models\\OrganiZa.Models.csproj": {
+    "C:\\Users\\joela\\Desktop\\Tareas\\Cuarto Cuatrimestre\\Aplicaciones web\\Repositorio\\Organiza(cambios)\\4AOrganiZa5\\OrganiZa.Models\\OrganiZa.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Missael Ching R&M\\Desktop\\Nueva carpeta\\Nueva carpeta\\Nueva carpeta\\4AOrganiZa\\OrganiZa.Models\\OrganiZa.Models.csproj",
+        "projectUniqueName": "C:\\Users\\joela\\Desktop\\Tareas\\Cuarto Cuatrimestre\\Aplicaciones web\\Repositorio\\Organiza(cambios)\\4AOrganiZa5\\OrganiZa.Models\\OrganiZa.Models.csproj",
         "projectName": "OrganiZa.Models",
-        "projectPath": "C:\\Users\\Missael Ching R&M\\Desktop\\Nueva carpeta\\Nueva carpeta\\Nueva carpeta\\4AOrganiZa\\OrganiZa.Models\\OrganiZa.Models.csproj",
-        "packagesPath": "C:\\Users\\Missael Ching R&M\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Missael Ching R&M\\Desktop\\Nueva carpeta\\Nueva carpeta\\Nueva carpeta\\4AOrganiZa\\OrganiZa.Models\\obj\\",
+        "projectPath": "C:\\Users\\joela\\Desktop\\Tareas\\Cuarto Cuatrimestre\\Aplicaciones web\\Repositorio\\Organiza(cambios)\\4AOrganiZa5\\OrganiZa.Models\\OrganiZa.Models.csproj",
+        "packagesPath": "C:\\Users\\joela\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joela\\Desktop\\Tareas\\Cuarto Cuatrimestre\\Aplicaciones web\\Repositorio\\Organiza(cambios)\\4AOrganiZa5\\OrganiZa.Models\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Missael Ching R&M\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\joela\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -68,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
