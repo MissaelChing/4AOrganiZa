@@ -19,6 +19,7 @@ namespace OrganiZa.Models
         public string statusdepago { get; set; }
         public List<TutorModels> TutorModels { get; set; }
         public List<EscuelaModels> EscuelaModels { get; set; }
+        public virtual CalendarioModels CalendarioModels { get; set; }
 
     }
 }

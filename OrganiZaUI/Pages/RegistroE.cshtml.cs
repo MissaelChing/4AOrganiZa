@@ -53,7 +53,7 @@ namespace OrganiZaUI.Pages
             repositoryEscuela.InsertEs(escuela);
             
 
-            return Redirect("/Menu");
+            return Redirect("/MenuPagos");
         }
     }
 }

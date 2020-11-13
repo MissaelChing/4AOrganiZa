@@ -29,5 +29,9 @@ namespace OrganiZaUI.Pages
             }
 
         }
+        public IActionResult OnPostVC()
+        {
+            return Redirect("/Index");
+        }
     }
 }

@@ -34,6 +34,7 @@ namespace OrganiZaUI.Pages
             tutor.Rolusuario = "Tutor";
             repositorytutor.InsertT(tutor);
             user.IdT = tutor.Id;
+            
             repositoryUsuario.InsertU(user);
 
             return Redirect("/Login");

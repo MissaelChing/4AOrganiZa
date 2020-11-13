@@ -18,6 +18,13 @@ namespace OrganiZa.Services.Controladores
             context.SaveChanges();
             return Calendario.Id;
         }
+        public int InsertCT(CalendarioModels Calendario)
+        {
+            if (Calendario == null) throw new ArgumentNullException("Entity");
+            entities.Add(Calendario);
+            context.SaveChanges();
+            return Calendario.Id;
+        }
         public CalendarioModels Updates(CalendarioModels calendario)
         {
             var temp = context.Calendario.FirstOrDefault(x => x.Id == calendario.Id)
@@ -41,7 +48,23 @@ namespace OrganiZa.Services.Controladores
         {
             return context.Calendario.ToList() ?? new List<CalendarioModels>();
         }
+        public int BuscarCalendario(CalendarioModels calendario)
+        {
 
+            var Calendario = context.Calendario.ToList();
+            int id = 0;
+            foreach (var items in Calendario)
+            {
+                if (calendario.IdT == items.IdT)
+                {
+                    calendario.Id = items.Id;
+                    calendario.IdE = items.IdE;
+                    id = items.Id;
+                    break;
+                }
+            }
+            return id;
+        }
 
     }
 }

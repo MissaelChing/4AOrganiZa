@@ -12,7 +12,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace OrganiZaUI.Pages
 {
-    public class GCalendarioModel : PageModel
+    public class VCalendarioModel : PageModel
     {
         [BindProperty]
         public CalendarioModels calendario { get; set; }
@@ -21,19 +21,27 @@ namespace OrganiZaUI.Pages
         [BindProperty]
         public EscuelaModels escuela { get; set; }
         public EscuelaModels escuelas = new EscuelaModels();
+        public CalendarioModels calendarios = new CalendarioModels();
         public IRepositoryCalendario repositoryCalendario;
         public Users Users = new Users();
         public IRepositoryRegistroAdmi repositorioadmi;
         public IRepositoryRegistroEscuela repositorioEscuela;
-        public SelectList Admins { get; private set; }
         public SelectList Escuelas { get; private set; }
-        public GCalendarioModel(IRepositoryCalendario repositoryCalendario, IRepositoryRegistroEscuela repositorioEscuela)
+        public SelectList Calen { get; private set; }
+        
+        private readonly IRepository<CalendarioModels> repository;
+        public IEnumerable<CalendarioModels> Movie { get; private set; }
+
+        CalendarioModels cal = new CalendarioModels();
+
+
+        public VCalendarioModel(IRepositoryCalendario repositoryCalendario, IRepositoryRegistroEscuela repositorioEscuela, IRepository<CalendarioModels> repository)
         {
             this.repositoryCalendario = repositoryCalendario;
             this.repositorioEscuela = repositorioEscuela;
+            this.repository = repository;
         }
-
-        public void OnGet()
+        public IActionResult OnGet()
         {
             if (HttpContext.Session.GetString("1.1") == null)
             {
@@ -46,30 +54,23 @@ namespace OrganiZaUI.Pages
                 Users.Usuario = HttpContext.Session.GetString("1");
                 Users.Id = int.Parse(HttpContext.Session.GetString("1.1"));
                 Users.Rolusuario = HttpContext.Session.GetString("1.2");
-                escuelas.IdA = Users.Id;
+                calendarios.IdT = Users.Id;
             }
-            repositorioEscuela.BuscarEscuela(escuelas);
-            escuela = repositorioEscuela.GetE(escuelas.Id);
-            Escuelas = new SelectList(repositorioEscuela.GetW(), nameof(escuelas.Id),
-            nameof(escuela.ModoP));
-           
+            repositoryCalendario.BuscarCalendario(calendarios);
+            calendario = repositoryCalendario.GetA(calendarios.Id);
+            Calen = new SelectList(repositoryCalendario.GetW(), nameof(calendarios.Id),
+            nameof(calendario.IdE));
+            Movie = repository.GetAll();
+
+
+
+
+
+
+            return Page();
 
         }
 
-       
-
-        public IActionResult OnPost()
-        {
-            OnGet();
-            calendario.IdE = escuela.Id;
-            calendario.IdT = 2;
-            calendario.ModoP = escuela.ModoP;
-            repositoryCalendario.InsertC(calendario);
-
-
-            return Redirect("/GCalendario"); 
-
-        }
         public IActionResult OnPostVolver()
         {
             return Redirect("/Index");

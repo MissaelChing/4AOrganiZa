@@ -12,6 +12,7 @@ namespace OrganiZa.Models
         public string NombreE { get; set; }
         public string NombreAd { get; set; }
         public string ModoP { get; set; }
+        public int NReferencia { get; set; }
         public double Colegiatura { get; set; }
         public int IdA { get; set; }
 
