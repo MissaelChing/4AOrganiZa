@@ -7185,11 +7185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joela\\Desktop\\Tareas\\Cuarto Cuatrimestre\\Aplicaciones web\\Repositorio\\Organiza(cambios)\\4AOrganiZa8\\OrganiZa.Models\\OrganiZa.Models.csproj",
+      "projectUniqueName": "C:\\Users\\joela\\Desktop\\Tareas\\Cuarto Cuatrimestre\\Aplicaciones web\\Repositorio\\Organiza(cambios)\\4AOrganiZa9\\OrganiZa.Models\\OrganiZa.Models.csproj",
       "projectName": "OrganiZa.Models",
-      "projectPath": "C:\\Users\\joela\\Desktop\\Tareas\\Cuarto Cuatrimestre\\Aplicaciones web\\Repositorio\\Organiza(cambios)\\4AOrganiZa8\\OrganiZa.Models\\OrganiZa.Models.csproj",
+      "projectPath": "C:\\Users\\joela\\Desktop\\Tareas\\Cuarto Cuatrimestre\\Aplicaciones web\\Repositorio\\Organiza(cambios)\\4AOrganiZa9\\OrganiZa.Models\\OrganiZa.Models.csproj",
       "packagesPath": "C:\\Users\\joela\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joela\\Desktop\\Tareas\\Cuarto Cuatrimestre\\Aplicaciones web\\Repositorio\\Organiza(cambios)\\4AOrganiZa8\\OrganiZa.Models\\obj\\",
+      "outputPath": "C:\\Users\\joela\\Desktop\\Tareas\\Cuarto Cuatrimestre\\Aplicaciones web\\Repositorio\\Organiza(cambios)\\4AOrganiZa9\\OrganiZa.Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

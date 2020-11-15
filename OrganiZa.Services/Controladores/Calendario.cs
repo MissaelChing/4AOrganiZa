@@ -44,6 +44,10 @@ namespace OrganiZa.Services.Controladores
         {
             return context.Calendario.FirstOrDefault(x => x.Id == Id);
         }
+        public CalendarioModels GetCT(int Id)
+        {
+            return context.Calendario.FirstOrDefault(x => x.IdT == Id);
+        }
         public IEnumerable<CalendarioModels> GetW()
         {
             return context.Calendario.ToList() ?? new List<CalendarioModels>();

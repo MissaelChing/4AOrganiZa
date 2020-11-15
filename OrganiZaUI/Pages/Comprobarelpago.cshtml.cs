@@ -84,6 +84,7 @@ namespace OrganiZaUI.Pages
         {
             pago.voucher = GetByteArrayFromImage(file);
             pago = repositorypagos.UpdatesP(Pago);
+
             if (Pago.statusdepago == "Aprobado")
             {
             }

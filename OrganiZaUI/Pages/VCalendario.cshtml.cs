@@ -15,6 +15,8 @@ namespace OrganiZaUI.Pages
     public class VCalendarioModel : PageModel
     {
         [BindProperty]
+        public IEnumerable<PagosModels> Pago { get; set; }
+        [BindProperty]
         public CalendarioModels calendario { get; set; }
         [BindProperty]
         public AdministradorModels administrador { get; set; }
@@ -31,15 +33,18 @@ namespace OrganiZaUI.Pages
         
         private readonly IRepository<CalendarioModels> repository;
         public IEnumerable<CalendarioModels> Movie { get; private set; }
+        public IList<PagosModels> Mov { get; set; }
+        public CalendarioModels Calen2 { get; private set; }
 
         CalendarioModels cal = new CalendarioModels();
+        private readonly AppDBContext _context;
 
-
-        public VCalendarioModel(IRepositoryCalendario repositoryCalendario, IRepositoryRegistroEscuela repositorioEscuela, IRepository<CalendarioModels> repository)
+        public VCalendarioModel(IRepositoryCalendario repositoryCalendario, IRepositoryRegistroEscuela repositorioEscuela, IRepository<CalendarioModels> repository, AppDBContext context)
         {
             this.repositoryCalendario = repositoryCalendario;
             this.repositorioEscuela = repositorioEscuela;
             this.repository = repository;
+            _context = context;
         }
         public IActionResult OnGet()
         {
@@ -60,9 +65,16 @@ namespace OrganiZaUI.Pages
             calendario = repositoryCalendario.GetA(calendarios.Id);
             Calen = new SelectList(repositoryCalendario.GetW(), nameof(calendarios.Id),
             nameof(calendario.IdE));
+            Calen2 = repositoryCalendario.GetCT(Users.Id);
+            Calen = new SelectList(repositoryCalendario.GetW(), nameof(Users.Id),
+            nameof(Calen2.fecha));
+
+            var movies = from m in _context.Pagos
+                         where m.TutorId == Users.Id
+                         select m;
             Movie = repository.GetAll();
 
-
+            Mov = movies.ToList();
 
 
 

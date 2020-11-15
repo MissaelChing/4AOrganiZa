@@ -11,6 +11,7 @@ namespace OrganiZa.Services
         public int InsertCT(CalendarioModels calendario);
         public int BuscarCalendario(CalendarioModels calendario);
         public CalendarioModels GetA(int id);
+        public CalendarioModels GetCT(int id);
         public IEnumerable<CalendarioModels> GetW();
         public CalendarioModels Updates(CalendarioModels calendario);
     }
