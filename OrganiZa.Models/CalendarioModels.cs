@@ -9,7 +9,7 @@ namespace OrganiZa.Models
     [Table("Calendario")]
     public class CalendarioModels: BaseEntity
     {
-        public DateTime fecha { get; set; }
+        public string MesPago { get; set; }
         public string ModoP { get; set; }
         public double Colegiatura { get; set; }
         public string statusdepago { get; set; }

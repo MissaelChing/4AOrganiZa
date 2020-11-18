@@ -22,6 +22,7 @@ namespace OrganiZaUI.Pages
         [BindProperty]
         public IEnumerable<PagosModels> Pago { get; set; }
         public Users Users = new Users();
+        public PagosModels Mov = new PagosModels();
         public IRepositoryPagos repositorypagos;
         public IRepositoryRegistroTutor repositorytutor;
         public IRepositoryRegistroEscuela repositoryRegistroEscuela;
@@ -92,5 +93,6 @@ namespace OrganiZaUI.Pages
             nameof(pago.NombreT));
 
         }
+
     }
 }

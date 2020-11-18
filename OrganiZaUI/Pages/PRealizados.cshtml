@@ -2,11 +2,12 @@
 @model OrganiZaUI.Pages.PRealizadosModel
 @{
 }
-<h1>Calendario de pagos</h1>
+<h1>Historial de pagos</h1>
 <link rel="stylesheet" href="~/css/e.css" />
+
 <form method="post">
 
-    @if (Model.Movie.Any())
+    @if (@Model.Movie.Any())
     {
         <table class="table table-bordered">
             <thead>
@@ -14,7 +15,6 @@
                     <th scope="col">@Html.DisplayNameFor(x => x.Movie.FirstOrDefault().NombreT)</th>
                     <th scope="col">@Html.DisplayNameFor(x => x.Movie.FirstOrDefault().Colegiatura)</th>
                     <th scope="col">@Html.DisplayNameFor(x => x.Movie.FirstOrDefault().statusdepago)</th>
-
 
                 </tr>
 
@@ -26,8 +26,14 @@
                     <tr>
                         <td scope="row">@Html.DisplayFor(m => item.NombreT)</td>
                         <td>@Html.DisplayFor(m => item.Colegiatura)</td>
-                        <td bgcolor="green">@Html.DisplayFor(m => item.statusdepago)</td>
-
+                        @if (item.statusdepago == "No Aprobado")
+                        {
+                            <th bgcolor="red">@Html.DisplayFor(m => item.statusdepago)</th>
+                        }
+                        else
+                        {
+                            <td bgcolor="green">@Html.DisplayFor(m => item.statusdepago)</td>
+                        }
 
                     </tr>
                 }

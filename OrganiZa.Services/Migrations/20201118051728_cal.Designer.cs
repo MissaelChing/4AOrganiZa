@@ -10,8 +10,8 @@ using OrganiZa.Services;
 namespace OrganiZa.Services.Migrations
 {
     [DbContext(typeof(AppDBContext))]
-    [Migration("20201118015400_initial")]
-    partial class initial
+    [Migration("20201118051728_cal")]
+    partial class cal
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -83,6 +83,9 @@ namespace OrganiZa.Services.Migrations
                     b.Property<int>("IdT")
                         .HasColumnType("int");
 
+                    b.Property<string>("MesPago")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("ModoP")
                         .HasColumnType("nvarchar(max)");
 
@@ -90,9 +93,6 @@ namespace OrganiZa.Services.Migrations
                         .HasColumnType("bit");
 
                     b.Property<DateTime?>("UpdatedAT")
-                        .HasColumnType("datetime2");
-
-                    b.Property<DateTime>("fecha")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("statusdepago")

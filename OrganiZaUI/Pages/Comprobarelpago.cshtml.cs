@@ -88,7 +88,7 @@ namespace OrganiZaUI.Pages
             if (Pago.statusdepago == "Aprobado")
             {
             }
-            if (Pago.statusdepago == "No aprobado")
+            if (Pago.statusdepago == "No Aprobado")
             {
             }
 

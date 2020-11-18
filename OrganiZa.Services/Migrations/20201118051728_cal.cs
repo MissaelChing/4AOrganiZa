@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace OrganiZa.Services.Migrations
 {
-    public partial class initial : Migration
+    public partial class cal : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -16,7 +16,7 @@ namespace OrganiZa.Services.Migrations
                     CreatedAT = table.Column<DateTime>(nullable: false),
                     UpdatedAT = table.Column<DateTime>(nullable: true),
                     Status = table.Column<bool>(nullable: false),
-                    fecha = table.Column<DateTime>(nullable: false),
+                    MesPago = table.Column<string>(nullable: true),
                     ModoP = table.Column<string>(nullable: true),
                     Colegiatura = table.Column<double>(nullable: false),
                     statusdepago = table.Column<string>(nullable: true),

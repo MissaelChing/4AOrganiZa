@@ -32,7 +32,7 @@ namespace OrganiZa.Services.Controladores
             if (temp.Id == 0)
                 return temp;
             temp.Id = calendario.Id;
-            temp.fecha = calendario.fecha;
+            temp.MesPago = calendario.MesPago;
             if (temp == null) throw new ArgumentNullException("Entity");
             if (temp.Id <= 0) throw new ArgumentNullException("Entity");
             var entity = entities.Attach(temp);
@@ -62,7 +62,7 @@ namespace OrganiZa.Services.Controladores
                 if (calendario.IdE == items.IdE)
                 {
                     calendario.IdE = items.IdE;
-                    calendario.fecha = items.fecha;
+                    calendario.MesPago = items.MesPago;
                     id = items.IdE;
                     break;
                 }
