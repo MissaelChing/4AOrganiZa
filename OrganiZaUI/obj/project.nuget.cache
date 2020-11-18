@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CelLEUjvIDAAGdx3WbwTJ5iyXb5oVE7oc5+NWGm5rhefATnb8fMog9wLsXahV4nwtlZgb3UqxIAVv4nPvcdJeA==",
+  "dgSpecHash": "0LdKRRc56zjudZZJPR9exiOS1r8eyClFk1bZY17Qm0QW7vYvF0rjH+OICg0xjTFHAFbsu3ttw+whhGSbSyT5Qg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\joela\\Desktop\\Tareas\\Cuarto Cuatrimestre\\Aplicaciones web\\Repositorio\\Organiza(cambios)\\4AOrganiZa9\\OrganiZaUI\\OrganiZaUI.csproj",
+  "projectFilePath": "C:\\Users\\joela\\Desktop\\Tareas\\Cuarto Cuatrimestre\\Aplicaciones web\\Repositorio\\Organiza(cambios)\\4AOrganiZa1\\OrganiZaUI\\OrganiZaUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joela\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\joela\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",

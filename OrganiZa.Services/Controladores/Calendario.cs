@@ -59,11 +59,11 @@ namespace OrganiZa.Services.Controladores
             int id = 0;
             foreach (var items in Calendario)
             {
-                if (calendario.IdT == items.IdT)
+                if (calendario.IdE == items.IdE)
                 {
-                    calendario.Id = items.Id;
                     calendario.IdE = items.IdE;
-                    id = items.Id;
+                    calendario.fecha = items.fecha;
+                    id = items.IdE;
                     break;
                 }
             }

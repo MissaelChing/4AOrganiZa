@@ -15,6 +15,8 @@ namespace OrganiZaUI.Pages
     public class VCalendarioModel : PageModel
     {
         [BindProperty]
+        public TutorModels Tutor { get; private set; }
+        [BindProperty]
         public IEnumerable<PagosModels> Pago { get; set; }
         [BindProperty]
         public CalendarioModels calendario { get; set; }
@@ -25,24 +27,29 @@ namespace OrganiZaUI.Pages
         public EscuelaModels escuelas = new EscuelaModels();
         public CalendarioModels calendarios = new CalendarioModels();
         public IRepositoryCalendario repositoryCalendario;
+        public SelectList Tutores { get; private set; }
         public Users Users = new Users();
         public IRepositoryRegistroAdmi repositorioadmi;
-        public IRepositoryRegistroEscuela repositorioEscuela;
-        public SelectList Escuelas { get; private set; }
+        public IRepositoryRegistroEscuela repositoryRegistroEscuela;
+        public IRepositoryRegistroTutor repositorytutor;
+
+        public SelectList Escuela { get; private set; }
+        public EscuelaModels Escuelas { get; private set; }
         public SelectList Calen { get; private set; }
         
         private readonly IRepository<CalendarioModels> repository;
         public IEnumerable<CalendarioModels> Movie { get; private set; }
-        public IList<PagosModels> Mov { get; set; }
+        public IList<CalendarioModels> Mov { get; set; }
         public CalendarioModels Calen2 { get; private set; }
 
         CalendarioModels cal = new CalendarioModels();
         private readonly AppDBContext _context;
 
-        public VCalendarioModel(IRepositoryCalendario repositoryCalendario, IRepositoryRegistroEscuela repositorioEscuela, IRepository<CalendarioModels> repository, AppDBContext context)
+        public VCalendarioModel(IRepositoryCalendario repositoryCalendario, IRepositoryRegistroEscuela repositoryRegistroEscuela, IRepository<CalendarioModels> repository, AppDBContext context, IRepositoryRegistroTutor repositorytutor)
         {
             this.repositoryCalendario = repositoryCalendario;
-            this.repositorioEscuela = repositorioEscuela;
+            this.repositoryRegistroEscuela = repositoryRegistroEscuela;
+            this.repositorytutor = repositorytutor;
             this.repository = repository;
             _context = context;
         }
@@ -60,19 +67,17 @@ namespace OrganiZaUI.Pages
                 Users.Id = int.Parse(HttpContext.Session.GetString("1.1"));
                 Users.Rolusuario = HttpContext.Session.GetString("1.2");
                 calendarios.IdT = Users.Id;
-            }
-            repositoryCalendario.BuscarCalendario(calendarios);
-            calendario = repositoryCalendario.GetA(calendarios.Id);
-            Calen = new SelectList(repositoryCalendario.GetW(), nameof(calendarios.Id),
-            nameof(calendario.IdE));
-            Calen2 = repositoryCalendario.GetCT(Users.Id);
-            Calen = new SelectList(repositoryCalendario.GetW(), nameof(Users.Id),
-            nameof(Calen2.fecha));
 
-            var movies = from m in _context.Pagos
-                         where m.TutorId == Users.Id
+            }
+
+            Escuelas = repositoryRegistroEscuela.GetEA(Users.Id);
+            Escuela = new SelectList(repositoryRegistroEscuela.GetW(), nameof(Users.Id),
+            nameof(Escuelas.NombreE));
+
+            var movies = from m in _context.Calendario
+                         where m.IdE == Escuelas.Id
                          select m;
-            Movie = repository.GetAll();
+          
 
             Mov = movies.ToList();
 

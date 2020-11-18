@@ -15,16 +15,19 @@ using OrganiZa.Services;
 
 namespace OrganiZaUI.Pages
 {
-    public class ComprobarPagosModel : PageModel
+    public class PRealizadosModel : PageModel
     {
+        [BindProperty]
+        public TutorModels Tutor { get; private set; }
         [BindProperty]
         public IEnumerable<PagosModels> Pago { get; set; }
         public Users Users = new Users();
         public IRepositoryPagos repositorypagos;
+        public IRepositoryRegistroTutor repositorytutor;
         public IRepositoryRegistroEscuela repositoryRegistroEscuela;
         public string file1 { get; set; }
 
-   
+        public SelectList Tutores { get; private set; }
         public SelectList Admins { get; private set; }
         public AdministradorModels Administrador { get; private set; }
 
@@ -43,9 +46,10 @@ namespace OrganiZaUI.Pages
         public EscuelaModels Escuelas { get; private set; }
 
 
-        public ComprobarPagosModel(IRepositoryPagos repositorypagos, AppDBContext context, IRepositoryRegistroEscuela repositoryRegistroEscuela)
+        public PRealizadosModel(IRepositoryPagos repositorypagos, AppDBContext context, IRepositoryRegistroEscuela repositoryRegistroEscuela, IRepositoryRegistroTutor repositorytutor)
         {
             this.repositorypagos = repositorypagos;
+            this.repositorytutor = repositorytutor;
             this.repositoryRegistroEscuela = repositoryRegistroEscuela;
             _context = context;
 
@@ -64,42 +68,19 @@ namespace OrganiZaUI.Pages
                 Users.Id = int.Parse(HttpContext.Session.GetString("1.1"));
                 Users.Rolusuario = HttpContext.Session.GetString("1.2");
             }
-            if (Users.Rolusuario != null && Users.Rolusuario == "Administrador")
-            {
-                Escuelas = repositoryRegistroEscuela.GetEA(Users.Id);
-                Escuela = new SelectList(repositoryRegistroEscuela.GetW(), nameof(Users.Id),
-                nameof(Escuelas.NombreE));
+            Tutor = repositorytutor.GetT(Users.Id);
+            Tutores = new SelectList(repositorytutor.GetW(), nameof(Users.Id),
+            nameof(Tutor.NombreT));
 
-                var movies = from m in _context.Pagos where m.IdE == Escuelas.Id
-                             select m ;
-                if (!string.IsNullOrEmpty(SearchString))
-                {
-                    movies = movies.Where(s => s.NombreT.Contains(SearchString));
-                }
-               
-                Movie = movies.ToList();
-            }
-            else
-            {
-                return Redirect("/Error");
-            }
+            var movies = from m in _context.Pagos where m.TutorId == Users.Id select m;
+
+
+            Movie = movies.ToList();
 
 
 
             return Page();
 
         }
-
-        public string ImageSource(byte[] yourImageBytes)
-        {
-
-
-            string mimeType = ("image/png");
-            string base64 = Convert.ToBase64String(yourImageBytes);
-            return string.Format("data:{0};base64,{1}", mimeType, base64);
-
-        }
-    
-
     }
 }
