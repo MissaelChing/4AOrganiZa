@@ -1,0 +1,192 @@
+C:\Users\Missael Ching R&M\source\repos\OrganiZa\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.deps.json
+C:\Users\Missael Ching R&M\source\repos\OrganiZa\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.dll
+C:\Users\Missael Ching R&M\source\repos\OrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.csprojAssemblyReference.cache
+C:\Users\Missael Ching R&M\source\repos\OrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.AssemblyInfoInputs.cache
+C:\Users\Missael Ching R&M\source\repos\OrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.AssemblyInfo.cs
+C:\Users\Missael Ching R&M\source\repos\OrganiZa\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.runtimeconfig.json
+C:\Users\Missael Ching R&M\source\repos\OrganiZa\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.runtimeconfig.dev.json
+C:\Users\Missael Ching R&M\source\repos\OrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.genruntimeconfig.cache
+C:\Users\Missael Ching R&M\source\repos\OrganiZa\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.pdb
+C:\Users\Missael Ching R&M\source\repos\OrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.csproj.CoreCompileInputs.cache
+C:\Users\Missael Ching R&M\source\repos\OrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.dll
+C:\Users\Missael Ching R&M\source\repos\OrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.pdb
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza\Proyecto\4AOrganiZa\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.deps.json
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza\Proyecto\4AOrganiZa\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.runtimeconfig.json
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza\Proyecto\4AOrganiZa\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.runtimeconfig.dev.json
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza\Proyecto\4AOrganiZa\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.dll
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza\Proyecto\4AOrganiZa\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.pdb
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza\Proyecto\4AOrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.csprojAssemblyReference.cache
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza\Proyecto\4AOrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.AssemblyInfoInputs.cache
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza\Proyecto\4AOrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.AssemblyInfo.cs
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza\Proyecto\4AOrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.csproj.CoreCompileInputs.cache
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza\Proyecto\4AOrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.dll
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza\Proyecto\4AOrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.pdb
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza\Proyecto\4AOrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.genruntimeconfig.cache
+C:\Users\Missael Ching R&M\Desktop\4AOrganiZa\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.deps.json
+C:\Users\Missael Ching R&M\Desktop\4AOrganiZa\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.runtimeconfig.json
+C:\Users\Missael Ching R&M\Desktop\4AOrganiZa\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.runtimeconfig.dev.json
+C:\Users\Missael Ching R&M\Desktop\4AOrganiZa\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.dll
+C:\Users\Missael Ching R&M\Desktop\4AOrganiZa\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.pdb
+C:\Users\Missael Ching R&M\Desktop\4AOrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.csprojAssemblyReference.cache
+C:\Users\Missael Ching R&M\Desktop\4AOrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.AssemblyInfoInputs.cache
+C:\Users\Missael Ching R&M\Desktop\4AOrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.AssemblyInfo.cs
+C:\Users\Missael Ching R&M\Desktop\4AOrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.csproj.CoreCompileInputs.cache
+C:\Users\Missael Ching R&M\Desktop\4AOrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.dll
+C:\Users\Missael Ching R&M\Desktop\4AOrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.pdb
+C:\Users\Missael Ching R&M\Desktop\4AOrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.genruntimeconfig.cache
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza\4AOrganiZa\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.deps.json
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza\4AOrganiZa\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.runtimeconfig.json
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza\4AOrganiZa\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.runtimeconfig.dev.json
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza\4AOrganiZa\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.dll
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza\4AOrganiZa\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.pdb
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza\4AOrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.csprojAssemblyReference.cache
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza\4AOrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.AssemblyInfoInputs.cache
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza\4AOrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.AssemblyInfo.cs
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza\4AOrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.csproj.CoreCompileInputs.cache
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza\4AOrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.dll
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza\4AOrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.pdb
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza\4AOrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.genruntimeconfig.cache
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta\4AOrganiZa\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.deps.json
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta\4AOrganiZa\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.runtimeconfig.json
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta\4AOrganiZa\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.runtimeconfig.dev.json
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta\4AOrganiZa\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.dll
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta\4AOrganiZa\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.pdb
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta\4AOrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.csprojAssemblyReference.cache
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta\4AOrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.AssemblyInfoInputs.cache
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta\4AOrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.AssemblyInfo.cs
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta\4AOrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.csproj.CoreCompileInputs.cache
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta\4AOrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.dll
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta\4AOrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.pdb
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta\4AOrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.genruntimeconfig.cache
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AO\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.deps.json
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AO\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.runtimeconfig.json
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AO\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.runtimeconfig.dev.json
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AO\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.dll
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AO\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.pdb
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AO\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.csprojAssemblyReference.cache
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AO\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.AssemblyInfoInputs.cache
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AO\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.AssemblyInfo.cs
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AO\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.csproj.CoreCompileInputs.cache
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AO\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.dll
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AO\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.pdb
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AO\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.genruntimeconfig.cache
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZaN\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.deps.json
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZaN\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.runtimeconfig.json
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZaN\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.runtimeconfig.dev.json
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZaN\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.dll
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZaN\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.pdb
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZaN\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.csprojAssemblyReference.cache
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZaN\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.AssemblyInfoInputs.cache
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZaN\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.AssemblyInfo.cs
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZaN\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.csproj.CoreCompileInputs.cache
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZaN\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.dll
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZaN\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.pdb
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZaN\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.genruntimeconfig.cache
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa3\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.deps.json
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa3\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.runtimeconfig.json
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa3\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.runtimeconfig.dev.json
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa3\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.dll
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa3\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.pdb
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa3\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.csprojAssemblyReference.cache
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa3\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.AssemblyInfoInputs.cache
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa3\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.AssemblyInfo.cs
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa3\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.csproj.CoreCompileInputs.cache
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa3\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.dll
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa3\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.pdb
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa3\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.genruntimeconfig.cache
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta\Nueva carpeta\Nueva carpeta\4AOrganiZa\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.deps.json
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta\Nueva carpeta\Nueva carpeta\4AOrganiZa\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.runtimeconfig.json
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta\Nueva carpeta\Nueva carpeta\4AOrganiZa\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.runtimeconfig.dev.json
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta\Nueva carpeta\Nueva carpeta\4AOrganiZa\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.dll
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta\Nueva carpeta\Nueva carpeta\4AOrganiZa\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.pdb
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta\Nueva carpeta\Nueva carpeta\4AOrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.csprojAssemblyReference.cache
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta\Nueva carpeta\Nueva carpeta\4AOrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.AssemblyInfoInputs.cache
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta\Nueva carpeta\Nueva carpeta\4AOrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.AssemblyInfo.cs
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta\Nueva carpeta\Nueva carpeta\4AOrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.csproj.CoreCompileInputs.cache
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta\Nueva carpeta\Nueva carpeta\4AOrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.dll
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta\Nueva carpeta\Nueva carpeta\4AOrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.pdb
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta\Nueva carpeta\Nueva carpeta\4AOrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.genruntimeconfig.cache
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta (3)\4AOrganiZa\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.deps.json
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta (3)\4AOrganiZa\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.runtimeconfig.json
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta (3)\4AOrganiZa\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.runtimeconfig.dev.json
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta (3)\4AOrganiZa\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.dll
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta (3)\4AOrganiZa\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.pdb
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta (3)\4AOrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.csprojAssemblyReference.cache
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta (3)\4AOrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.AssemblyInfoInputs.cache
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta (3)\4AOrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.AssemblyInfo.cs
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta (3)\4AOrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.csproj.CoreCompileInputs.cache
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta (3)\4AOrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.dll
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta (3)\4AOrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.pdb
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta (3)\4AOrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.genruntimeconfig.cache
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa8\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.deps.json
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa8\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.runtimeconfig.json
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa8\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.runtimeconfig.dev.json
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa8\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.dll
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa8\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.pdb
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa8\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.csprojAssemblyReference.cache
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa8\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.AssemblyInfoInputs.cache
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa8\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.AssemblyInfo.cs
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa8\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.csproj.CoreCompileInputs.cache
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa8\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.dll
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa8\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.pdb
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa8\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.genruntimeconfig.cache
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa9\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.deps.json
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa9\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.runtimeconfig.json
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa9\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.runtimeconfig.dev.json
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa9\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.dll
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa9\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.pdb
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa9\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.csprojAssemblyReference.cache
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa9\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.AssemblyInfoInputs.cache
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa9\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.AssemblyInfo.cs
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa9\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.csproj.CoreCompileInputs.cache
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa9\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.dll
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa9\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.pdb
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa9\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.genruntimeconfig.cache
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa1\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.deps.json
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa1\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.runtimeconfig.json
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa1\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.runtimeconfig.dev.json
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa1\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.dll
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa1\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.pdb
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa1\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.csprojAssemblyReference.cache
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa1\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.AssemblyInfoInputs.cache
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa1\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.AssemblyInfo.cs
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa1\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.csproj.CoreCompileInputs.cache
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa1\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.dll
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa1\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.pdb
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa1\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.genruntimeconfig.cache
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta (3)\Nuevo OrganiZa\4AOrganiZa\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.deps.json
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta (3)\Nuevo OrganiZa\4AOrganiZa\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.runtimeconfig.json
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta (3)\Nuevo OrganiZa\4AOrganiZa\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.runtimeconfig.dev.json
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta (3)\Nuevo OrganiZa\4AOrganiZa\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.dll
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta (3)\Nuevo OrganiZa\4AOrganiZa\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.pdb
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta (3)\Nuevo OrganiZa\4AOrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.csprojAssemblyReference.cache
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta (3)\Nuevo OrganiZa\4AOrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.AssemblyInfoInputs.cache
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta (3)\Nuevo OrganiZa\4AOrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.AssemblyInfo.cs
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta (3)\Nuevo OrganiZa\4AOrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.csproj.CoreCompileInputs.cache
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta (3)\Nuevo OrganiZa\4AOrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.dll
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta (3)\Nuevo OrganiZa\4AOrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.pdb
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta (3)\Nuevo OrganiZa\4AOrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.genruntimeconfig.cache
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa600\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.deps.json
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa600\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.runtimeconfig.json
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa600\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.runtimeconfig.dev.json
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa600\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.dll
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa600\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.pdb
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa600\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.csprojAssemblyReference.cache
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa600\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.AssemblyInfoInputs.cache
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa600\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.AssemblyInfo.cs
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa600\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.csproj.CoreCompileInputs.cache
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa600\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.dll
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa600\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.pdb
+C:\Users\joela\Desktop\Tareas\Cuarto Cuatrimestre\Aplicaciones web\Repositorio\Organiza(cambios)\4AOrganiZa600\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.genruntimeconfig.cache
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta (3)\Nuevo OrganiZa2\4AOrganiZa\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.deps.json
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta (3)\Nuevo OrganiZa2\4AOrganiZa\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.runtimeconfig.json
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta (3)\Nuevo OrganiZa2\4AOrganiZa\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.runtimeconfig.dev.json
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta (3)\Nuevo OrganiZa2\4AOrganiZa\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.dll
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta (3)\Nuevo OrganiZa2\4AOrganiZa\OrganiZa.Models\bin\Debug\netcoreapp3.1\OrganiZa.Models.pdb
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta (3)\Nuevo OrganiZa2\4AOrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.csprojAssemblyReference.cache
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta (3)\Nuevo OrganiZa2\4AOrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.AssemblyInfoInputs.cache
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta (3)\Nuevo OrganiZa2\4AOrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.AssemblyInfo.cs
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta (3)\Nuevo OrganiZa2\4AOrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.csproj.CoreCompileInputs.cache
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta (3)\Nuevo OrganiZa2\4AOrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.dll
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta (3)\Nuevo OrganiZa2\4AOrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.pdb
+C:\Users\Missael Ching R&M\Desktop\Nueva carpeta (3)\Nuevo OrganiZa2\4AOrganiZa\OrganiZa.Models\obj\Debug\netcoreapp3.1\OrganiZa.Models.genruntimeconfig.cache

@@ -1,0 +1,65 @@
+﻿@page
+@model OrganiZaUI.Pages.ComprobarPagosModel
+@{
+}
+@if (Model.Users.Rolusuario == null)
+{
+    RedirectToPage("/Error");
+}
+else
+{
+    <h1>Comprobar Pagos</h1>
+    <br />
+    <br />
+    <br />
+    <form>
+        <p>
+            Buscar: <input type="text" asp-for="SearchString" />
+            <input type="submit" value="Filter" />
+        </p>
+    </form>
+    <form method="post">
+
+        @if (Model.Movie.Any())
+        {
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th scope="col">@Html.DisplayNameFor(x => x.Movie.FirstOrDefault().NombreT)</th>
+                        <th scope="col">@Html.DisplayNameFor(x => x.Movie.FirstOrDefault().Alumno)</th>
+                        <th scope="col">@Html.DisplayNameFor(x => x.Movie.FirstOrDefault().Mespagado)</th>
+                        <th scope="col">@Html.DisplayNameFor(x => x.Movie.FirstOrDefault().Fecha)</th>
+                        <th scope="col">@Html.DisplayNameFor(x => x.Movie.FirstOrDefault().statusdepago)</th>
+
+                        <th scope="col">Verificar Documentos</th>
+                    </tr>
+
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.Movie)
+                    {
+
+                        <tr>
+                            <td scope="row">@Html.DisplayFor(m => item.NombreT)</td>
+                            <td>@Html.DisplayFor(m => item.Alumno)</td>
+                            <th>@Html.DisplayFor(m => item.Mespagado)</th>
+                            <th>@Html.DisplayFor(m => item.Fecha)</th>
+                            <th>@Html.DisplayFor(m => item.statusdepago)</th>
+
+                            <td>
+                                <a asp-page="/Comprobarelpago" asp-route-ID="@item.Id" class="btn btn-success">Comprobar</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+
+            </table>
+        }
+        else
+        {
+            <div class="mx-auto text-center">
+                <span class="text-danger">No se encontraron ningun registro</span>
+            </div>
+        }
+    </form>
+}

@@ -1,0 +1,434 @@
+﻿@page
+@model OrganiZaUI.Pages.GCalendarioModel
+@{
+}
+
+@if (@Model.Users.Rolusuario == "Administrador")
+{
+
+    <form class="mt-3" method="post">
+        <div class="row">
+            <div class="col-md-12">
+                <input hidden asp-for="escuela.Id" />
+                <input hidden asp-for="escuela.ModoP" />
+                <br>
+                <br>
+            </div>
+        </div>
+    </form>
+
+    @if (@Model.Users.Id == @Model.escuela.IdA)
+    {
+        @if (@Model.escuela.ModoP == "Mensual")
+        {
+            <div class="row">
+
+                <form class="mt-12" method="post">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Fechas:</label>
+                            <input type="month" asp-for="calendario.MesPago" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-left" method="post">
+                        <label> </label>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-success m-3">Agregar</button>
+                        </div>
+                    </div>
+                </form>
+                <form class="mt-12" method="post">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Fechas:</label>
+                            <input type="month" asp-for="calendario.MesPago" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-left" method="post">
+                        <label> </label>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-success m-3">Agregar</button>
+                        </div>
+                    </div>
+                </form>
+                <form class="mt-12" method="post">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Fechas:</label>
+                            <input type="month" asp-for="calendario.MesPago" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-left" method="post">
+                        <label> </label>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-success m-3">Agregar</button>
+                        </div>
+                    </div>
+                </form>
+                <form class="mt-12" method="post">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Fechas:</label>
+                            <input type="month" asp-for="calendario.MesPago" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-left" method="post">
+                        <label> </label>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-success m-3">Agregar</button>
+                        </div>
+                    </div>
+                </form>
+                <form class="mt-12" method="post">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Fechas:</label>
+                            <input type="month" asp-for="calendario.MesPago" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-left" method="post">
+                        <label> </label>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-success m-3">Agregar</button>
+                        </div>
+                    </div>
+                </form>
+                <form class="mt-12" method="post">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Fechas:</label>
+                            <input type="month" asp-for="calendario.MesPago" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-left" method="post">
+                        <label> </label>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-success m-3">Agregar</button>
+                        </div>
+                    </div>
+                </form>
+                <form class="mt-12" method="post">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Fechas:</label>
+                            <input type="month" asp-for="calendario.MesPago" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-left" method="post">
+                        <label> </label>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-success m-3">Agregar</button>
+                        </div>
+                    </div>
+                </form>
+                <form class="mt-12" method="post">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Fechas:</label>
+                            <input type="month" asp-for="calendario.MesPago" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-left" method="post">
+                        <label> </label>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-success m-3">Agregar</button>
+                        </div>
+                    </div>
+                </form>
+                <form class="mt-12" method="post">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Fechas:</label>
+                            <input type="month" asp-for="calendario.MesPago" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-left" method="post">
+                        <label> </label>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-success m-3">Agregar</button>
+                        </div>
+                    </div>
+                </form>
+                <form class="mt-12" method="post">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Fechas:</label>
+                            <input type="month" asp-for="calendario.MesPago" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-left" method="post">
+                        <label> </label>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-success m-3">Agregar</button>
+                        </div>
+                    </div>
+                </form>
+                <form class="mt-12" method="post">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Fechas:</label>
+                            <input type="month" asp-for="calendario.MesPago" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-left" method="post">
+                        <label> </label>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-success m-3">Agregar</button>
+                        </div>
+                    </div>
+                </form>
+                <form class="mt-12" method="post">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Fechas:</label>
+                            <input type="month" asp-for="calendario.MesPago" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-left" method="post">
+                        <label> </label>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-success m-3">Agregar</button>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+
+            <form class="mt-3" method="post">
+                <div class="col-md-12 text-right">
+                    <div class="form-group">
+                        <button type="submit" asp-page-handler="Volver" class="btn btn-danger m-3">Volver</button>
+                    </div>
+                </div>
+            </form>
+
+        }
+        else if (Model.escuela.ModoP == "Bimestral")
+        {
+            <div class="row">
+
+                <form class="mt-12" method="post">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Fechas:</label>
+                            <input type="month" asp-for="calendario.MesPago" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-left" method="post">
+                        <label> </label>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-success m-3">Agregar</button>
+                        </div>
+                    </div>
+                </form>
+                <form class="mt-12" method="post">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Fechas:</label>
+                            <input type="month" asp-for="calendario.MesPago" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-left" method="post">
+                        <label> </label>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-success m-3">Agregar</button>
+                        </div>
+                    </div>
+                </form>
+                <form class="mt-12" method="post">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Fechas:</label>
+                            <input type="month" asp-for="calendario.MesPago" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-left" method="post">
+                        <label> </label>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-success m-3">Agregar</button>
+                        </div>
+                    </div>
+                </form>
+                <form class="mt-12" method="post">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Fechas:</label>
+                            <input type="month" asp-for="calendario.MesPago" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-left" method="post">
+                        <label> </label>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-success m-3">Agregar</button>
+                        </div>
+                    </div>
+                </form>
+                <form class="mt-12" method="post">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Fechas:</label>
+                            <input type="month" asp-for="calendario.MesPago" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-left" method="post">
+                        <label> </label>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-success m-3">Agregar</button>
+                        </div>
+                    </div>
+                </form>
+                <form class="mt-12" method="post">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Fechas:</label>
+                            <input type="month" asp-for="calendario.MesPago" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-left" method="post">
+                        <label> </label>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-success m-3">Agregar</button>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+
+            <form class="mt-3" method="post">
+                <div class="col-md-12 text-right">
+                    <div class="form-group">
+                        <button type="submit" asp-page-handler="Volver" class="btn btn-danger m-3">Volver</button>
+                    </div>
+                </div>
+            </form>
+
+        }
+        else if (Model.escuela.ModoP == "Cuatrimestral")
+        {
+            <div class="row">
+
+                <form class="mt-12" method="post">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Fechas:</label>
+                            <input type="month" asp-for="calendario.MesPago" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-left" method="post">
+                        <label> </label>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-success m-3">Agregar</button>
+                        </div>
+                    </div>
+                </form>
+                <form class="mt-12" method="post">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Fechas:</label>
+                            <input type="month" asp-for="calendario.MesPago" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-left" method="post">
+                        <label> </label>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-success m-3">Agregar</button>
+                        </div>
+                    </div>
+                </form>
+                <form class="mt-12" method="post">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Fechas:</label>
+                            <input type="month" asp-for="calendario.MesPago" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-left" method="post">
+                        <label> </label>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-success m-3">Agregar</button>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+
+            <form class="mt-3" method="post">
+                <div class="col-md-12 text-right">
+                    <div class="form-group">
+                        <button type="submit" asp-page-handler="Volver" class="btn btn-danger m-3">Volver</button>
+                    </div>
+                </div>
+            </form>
+        }
+        else if (Model.escuela.ModoP == "Semestral")
+        {
+            <div class="row">
+                <form class="mt-12" method="post">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Fechas:</label>
+                            <input type="month" asp-for="calendario.MesPago" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-left" method="post">
+                        <label> </label>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-success m-3">Agregar</button>
+                        </div>
+                    </div>
+                </form>
+                <form class="mt-12" method="post">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Fechas:</label>
+                            <input type="month" asp-for="calendario.MesPago" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-left" method="post">
+                        <label> </label>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-success m-3">Agregar</button>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+
+            <form class="mt-3" method="post">
+                <div class="col-md-12 text-right">
+                    <div class="form-group">
+                        <button type="submit" asp-page-handler="Volver" class="btn btn-danger m-3">Volver</button>
+                    </div>
+                </div>
+            </form>
+        }
+        else
+        {
+            <div class="row">
+
+                <form class="mt-12" method="post">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Fechas:</label>
+                            <input type="month" asp-for="calendario.MesPago" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-left" method="post">
+                        <label> </label>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-success m-3">Agregar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <form class="mt-3" method="post">
+                <div class="col-md-12 text-right">
+                    <div class="form-group">
+                        <button type="submit" asp-page-handler="Volver" class="btn btn-danger m-3">Volver</button>
+                    </div>
+                </div>
+            </form>
+        }
+
+    }
+}
