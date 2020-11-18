@@ -1,0 +1,44 @@
+﻿@page
+@model OrganiZaUI.Pages.PRealizadosModel
+@{
+}
+<h1>Calendario de pagos</h1>
+<link rel="stylesheet" href="~/css/e.css" />
+<form method="post">
+
+    @if (Model.Movie.Any())
+    {
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col">@Html.DisplayNameFor(x => x.Movie.FirstOrDefault().NombreT)</th>
+                    <th scope="col">@Html.DisplayNameFor(x => x.Movie.FirstOrDefault().Colegiatura)</th>
+                    <th scope="col">@Html.DisplayNameFor(x => x.Movie.FirstOrDefault().statusdepago)</th>
+
+
+                </tr>
+
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Movie)
+                {
+
+                    <tr>
+                        <td scope="row">@Html.DisplayFor(m => item.NombreT)</td>
+                        <td>@Html.DisplayFor(m => item.Colegiatura)</td>
+                        <td bgcolor="green">@Html.DisplayFor(m => item.statusdepago)</td>
+
+
+                    </tr>
+                }
+            </tbody>
+
+        </table>
+    }
+    else
+    {
+        <div class="mx-auto text-center">
+            <span class="text-danger">No se encontraron ningun pago</span>
+        </div>
+    }
+</form>
