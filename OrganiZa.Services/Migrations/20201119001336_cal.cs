@@ -23,7 +23,8 @@ namespace OrganiZa.Services.Migrations
                     Alumno = table.Column<string>(nullable: true),
                     IdE = table.Column<int>(nullable: false),
                     IdP = table.Column<int>(nullable: false),
-                    IdT = table.Column<int>(nullable: false)
+                    IdT = table.Column<int>(nullable: false),
+                    IdA = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
                 {
@@ -129,11 +130,18 @@ namespace OrganiZa.Services.Migrations
                     Rolusuario = table.Column<string>(nullable: true),
                     NombreAd = table.Column<string>(nullable: true),
                     UsersId = table.Column<int>(nullable: true),
-                    EscuelaModelsId = table.Column<int>(nullable: true)
+                    EscuelaModelsId = table.Column<int>(nullable: true),
+                    CalendarioModelsId = table.Column<int>(nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Administrador", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Administrador_Calendario_CalendarioModelsId",
+                        column: x => x.CalendarioModelsId,
+                        principalTable: "Calendario",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_Administrador_Escuela_EscuelaModelsId",
                         column: x => x.EscuelaModelsId,
@@ -197,6 +205,11 @@ namespace OrganiZa.Services.Migrations
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                 });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Administrador_CalendarioModelsId",
+                table: "Administrador",
+                column: "CalendarioModelsId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Administrador_EscuelaModelsId",

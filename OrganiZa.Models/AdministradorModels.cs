@@ -19,7 +19,7 @@ namespace OrganiZa.Models
 
         public virtual Users Users { get; set; }
         public virtual EscuelaModels EscuelaModels { get; set; }
-
+        public virtual CalendarioModels CalendarioModels { get; set; }
 
     }
 }

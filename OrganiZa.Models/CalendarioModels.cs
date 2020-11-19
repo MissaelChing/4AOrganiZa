@@ -17,10 +17,12 @@ namespace OrganiZa.Models
         public int IdE { get; set; }
         public int IdP { get; set; }
         public int IdT { get; set; }
+        public int IdA { get; set; }
 
         //Referencias
         public List<EscuelaModels> EscuelaModels { get; set; }
         public List<PagosModels> PagosModels { get; set; }
         public List<TutorModels> TutorModels { get; set; }
+        public List<AdministradorModels> AdministradorModels { get; set; }
     }
 }

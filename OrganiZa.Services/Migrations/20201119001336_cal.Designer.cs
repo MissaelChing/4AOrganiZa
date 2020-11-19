@@ -10,7 +10,7 @@ using OrganiZa.Services;
 namespace OrganiZa.Services.Migrations
 {
     [DbContext(typeof(AppDBContext))]
-    [Migration("20201118051728_cal")]
+    [Migration("20201119001336_cal")]
     partial class cal
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -27,6 +27,9 @@ namespace OrganiZa.Services.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int?>("CalendarioModelsId")
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("CreatedAT")
                         .HasColumnType("datetime2");
@@ -51,6 +54,8 @@ namespace OrganiZa.Services.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("CalendarioModelsId");
+
                     b.HasIndex("EscuelaModelsId");
 
                     b.HasIndex("UsersId");
@@ -73,6 +78,9 @@ namespace OrganiZa.Services.Migrations
 
                     b.Property<DateTime>("CreatedAT")
                         .HasColumnType("datetime2");
+
+                    b.Property<int>("IdA")
+                        .HasColumnType("int");
 
                     b.Property<int>("IdE")
                         .HasColumnType("int");
@@ -308,6 +316,10 @@ namespace OrganiZa.Services.Migrations
 
             modelBuilder.Entity("OrganiZa.Models.AdministradorModels", b =>
                 {
+                    b.HasOne("OrganiZa.Models.CalendarioModels", "CalendarioModels")
+                        .WithMany("AdministradorModels")
+                        .HasForeignKey("CalendarioModelsId");
+
                     b.HasOne("OrganiZa.Models.EscuelaModels", "EscuelaModels")
                         .WithMany("AdministradorModels")
                         .HasForeignKey("EscuelaModelsId");

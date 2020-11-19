@@ -26,6 +26,9 @@ namespace OrganiZa.Services.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<int?>("CalendarioModelsId")
+                        .HasColumnType("int");
+
                     b.Property<DateTime>("CreatedAT")
                         .HasColumnType("datetime2");
 
@@ -49,6 +52,8 @@ namespace OrganiZa.Services.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("CalendarioModelsId");
+
                     b.HasIndex("EscuelaModelsId");
 
                     b.HasIndex("UsersId");
@@ -71,6 +76,9 @@ namespace OrganiZa.Services.Migrations
 
                     b.Property<DateTime>("CreatedAT")
                         .HasColumnType("datetime2");
+
+                    b.Property<int>("IdA")
+                        .HasColumnType("int");
 
                     b.Property<int>("IdE")
                         .HasColumnType("int");
@@ -306,6 +314,10 @@ namespace OrganiZa.Services.Migrations
 
             modelBuilder.Entity("OrganiZa.Models.AdministradorModels", b =>
                 {
+                    b.HasOne("OrganiZa.Models.CalendarioModels", "CalendarioModels")
+                        .WithMany("AdministradorModels")
+                        .HasForeignKey("CalendarioModelsId");
+
                     b.HasOne("OrganiZa.Models.EscuelaModels", "EscuelaModels")
                         .WithMany("AdministradorModels")
                         .HasForeignKey("EscuelaModelsId");

@@ -1,9 +1,8 @@
 ﻿@page
-@model OrganiZaUI.Pages.VCalendarioModel
+@model OrganiZaUI.Pages.ACalendarioModel
 @{
+    Layout = null;
 }
-<h1>Calendario de pagos</h1>
-<link rel="stylesheet" href="~/css/e.css" />
 <form method="post">
 
     @if (Model.Mov.Any())
@@ -33,11 +32,7 @@
             </tbody>
 
         </table>
-        <div class="col-md-12 text-center">
-            <div class="form-group">
-                <a asp-page="/PRealizados" asp-route-ID="@Model.Users.Id" class="btn btn-success m-1">Pagos realizados</a>
-            </div>
-        </div>
+
     }
     else
     {
