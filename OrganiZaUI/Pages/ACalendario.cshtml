@@ -1,0 +1,43 @@
+﻿@page
+@model OrganiZaUI.Pages.ACalendarioModel
+@{
+    Layout = null;
+}
+<form method="post">
+
+    @if (Model.Mov.Any())
+    {
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col">@Html.DisplayNameFor(x => x.Mov.FirstOrDefault().MesPago)</th>
+                    <th scope="col">@Html.DisplayNameFor(x => x.Mov.FirstOrDefault().Colegiatura)</th>
+
+
+                </tr>
+
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Mov)
+                {
+
+                    <tr>
+                        <td scope="row">@Html.DisplayFor(m => item.MesPago)</td>
+                        <td>@Html.DisplayFor(m => item.Colegiatura)</td>
+
+
+
+                    </tr>
+                }
+            </tbody>
+
+        </table>
+
+    }
+    else
+    {
+        <div class="mx-auto text-center">
+            <span class="text-danger">No se encontraron ningun calendario</span>
+        </div>
+    }
+</form>
